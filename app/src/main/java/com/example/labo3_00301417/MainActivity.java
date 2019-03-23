@@ -44,5 +44,13 @@ public class MainActivity extends AppCompatActivity {
 
             });
         });
+        mButtonShare.setOnClickListener(v->{
+            String text =mEdit.getText().toString();
+            Intent mIntent = new Intent();
+            mIntent.setType("text/plain");
+            mIntent.setAction(Intent.ACTION_SEND);
+            mIntent.putExtra(Intent.EXTRA_TEXT,text);
+            startActivity(mIntent);
+        });
     }
 }

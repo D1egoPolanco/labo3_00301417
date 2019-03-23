@@ -13,5 +13,11 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textSize="48sp"
-    android:text="BRRRRRRR"/>
+    android:text="Informacion "/>
+
+<Button
+    android:id="@+id/comp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="compartir "/>
 </LinearLayout>
